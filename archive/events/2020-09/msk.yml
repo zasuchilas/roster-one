@@ -1,0 +1,8 @@
+-
+  date: 2020-09-20
+  text: Московский Марафон
+  desc: 42.2 / 10 km в самом сердце столицы
+  tags: [ 'running', 'competitions' ]
+  links:
+    - { type: www, src: moscowmarathon.runc.run }
+    - { type: vk, src: vk.com/moscowmarathon }

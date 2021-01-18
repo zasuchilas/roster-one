@@ -1,0 +1,31 @@
+-
+  date: 2020-10-03
+  text: Студенческий кубок БС / 1 этап
+  slug: scrc
+  desc: Серия соревнований московских вузов. Кросс 4, 6, 4x1 km
+  place: lysaya-gora
+  tags: [ 'running', 'competitions' ]
+  links:
+    - { type: more, src: scrc.runc.run }
+-
+  date: 2020-10-03
+  text: Быстрый пёс
+  slug: fastdogxc
+  desc: Забег с собаками в Битцевском лесу
+  tags: [ 'running' ]
+  links:
+    - { type: www, src: fastdogxc.runc.run }
+-
+  date: 2020-10-04
+  text: Лисья гора
+  desc: Классический кросс с кольцевой трассой 2/8 km
+  tags: [ 'running' ]
+  links:
+    - { type: www, src: foxhillxc.runc.run }
+-
+  date: 2020-10-25
+  text: Крылатский трейл
+  desc: 4 км и 8 км в один круг
+  tags: [ 'trail-running' ]
+  links:
+    - { type: www, src: ktrail.runc.run }

@@ -1,0 +1,9 @@
+-
+  date: 2021-06-06
+  text: Красочный забег
+  slug: colorrun5km
+  desc: 5 km через четыре красочные зоны
+  place: sk-lugniky
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: colorrun5km.runc.run }

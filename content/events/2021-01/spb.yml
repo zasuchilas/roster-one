@@ -1,0 +1,20 @@
+-
+  date: 2021-01-30
+  text: III Пискаревский полумарафон 2021
+  slug: piskarevsky-pm-2021
+  desc: 77-й годовщине полного освобождения Ленинграда от фашистской блокады
+  tags: [ 'holiday', 'running' ]
+  links:
+    - { type: reg, src: https://russiarunning.com/event/PiskarevskyPM2021/ }
+    - { type: more, src: https://vk.com/runpatriot }
+    - { type: org, src: https://vk.com/grifon_run }
+-
+  date: 2021-01-31
+  text: Дорога жизни
+  slug: doraga-zisny
+  desc: 52-й международный зимний марафон
+  tags: [ 'holiday', 'running' ]
+  links:
+    - { type: www, src: www.wnmarathon.ru/doraga-zisny }
+    - { type: vk, src: vk.com/lrmarathon }
+    - { type: reg, src: https://russiarunning.com/event/RoadOfLife2021/ }

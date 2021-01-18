@@ -1,0 +1,106 @@
+.layout {
+  padding: 1rem;
+  /*min-height: 100vh;*/
+  background-color: var(--white);
+
+  /*max-width: 480px;*/
+  /*margin: 0 auto;*/
+  border-left: 1px var(--border) dashed;
+  border-right: 1px var(--border) dashed;
+}
+
+/*body {*/
+/*  background-color: var(--grey-f4);*/
+/*}*/
+
+.layout header {
+  vertical-align: middle;
+  margin-bottom: 0.8rem;
+}
+
+.footer {
+  border-top: 1px dashed var(--border);
+  margin: 1.5rem 0;
+  padding: 1.5rem 0 0;
+}
+
+.scroll-btn {
+  display: none;
+  border-bottom: none;
+  /*border-bottom: 2px dashed var(--action-btn);*/
+  color: var(--action-btn);
+  /*font-weight: var(--weight-black);*/
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 512px) and (min-height: 512px) {
+  .layout {
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  .layout header {
+    min-width: 270px;
+    max-width: 270px;
+    border-right: 1px dashed var(--border);
+    /*margin-right: 1.5rem;*/
+    padding-right: 1rem;
+    margin-bottom: 0;
+  }
+
+  .layout .article {
+    column-width: 250px;
+    column-fill: auto;
+    column-gap: 3rem;
+    column-rule: 1px dashed var(--border);
+    border-right: none;
+    padding: 0 1rem;
+  }
+
+  .layout .article-header {
+    max-width: 250px;
+    border-top: none;
+    padding: 0.5rem 0 1rem;
+  }
+
+  ul.roster-row-block {
+    padding-right: 1rem;
+  }
+
+  .layout footer {
+    display: none;
+  }
+
+  .scroll-btn {
+    display: inline-block;
+    position: absolute;
+    bottom: 18px;
+    z-index: 10;
+  }
+
+  .scroll-btn.to-left {
+    left: 10px;
+  }
+
+  .scroll-btn.to-right {
+    right: 10px;
+  }
+}
+
+/*@media screen and (min-width: 512px) {*/
+/*  .layout {*/
+/*    !*height: 96vh;*!*/
+/*    !*min-height: 96vh;*!*/
+/*    !*overflow-y: hidden;*!*/
+/*    !*column-width: 250px;*!*/
+/*    !*!*column-count: 2;*!*!*/
+/*    !*column-fill: auto;*!*/
+/*    !*column-gap: 3rem;*!*/
+/*    !*column-rule: 1px dashed var(--border);*!*/
+/*    !*border-right: none;*!*/
+/*  }*/
+/*}*/

@@ -1,0 +1,34 @@
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from '../components/layout';
+import OrgRow from '../components/org-row';
+
+const SingleOrg = ({ data }) => {
+  const node = data.yaml;
+  return (
+    <Layout>
+      <OrgRow node={node} />
+    </Layout>
+  );
+};
+
+export default SingleOrg;
+
+export const query = graphql`
+  query($base: String!, $slug: String!) {
+    yaml(slug: { eq: $slug }, fields: { base: { eq: $base } }) {
+      title
+      date
+      link
+      slug
+      place
+      coords
+      fields {
+        base
+        folder
+        city
+        org
+      }
+    }
+  }
+`;

@@ -1,0 +1,38 @@
+.filter {
+  /*margin-bottom: 1rem;*/
+}
+
+.filter .filter-body {
+  margin: 0.5rem 0 0;
+}
+
+.filter .filter-group {
+  margin: 0.2rem 0;
+}
+
+.filter .filter-group:not(:first-child)::before {
+  content: '+ ';
+  font-weight: var(--weight-bold);
+}
+
+.filter .filter-tag {
+  margin-right: 0.3rem;
+  padding: 0 0.1rem;
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.filter .filter-tag:focus {
+  outline: none;
+}
+
+.filter .filter-tag:hover:not(.filter-tag-active) {
+  background-color: var(--btn-hover);
+}
+
+.filter .filter-tag-active {
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+}

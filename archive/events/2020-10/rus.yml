@@ -1,0 +1,16 @@
+-
+  date: 2020-10-03
+  text: Игры Героев
+  slug: herogames
+  desc: командное прохождение испытаний Краснодар/Текстильщик
+  tags: [ 'ocr', 'crossfit', 'athletics', 'competitions' ]
+  links:
+    - { type: more, src: heroleague.ru/herogames/ }
+-
+  date: 2020-10-31
+  text: Hero League Camp
+  slug: heroleaguecamp
+  desc: тренировочный лагерь от Hero League Training в Дагестане
+  tags: [ 'ocr', 'trail-running', 'crossfit' ]
+  links:
+    - { type: vk, src: vk.com/heroleaguecamp }

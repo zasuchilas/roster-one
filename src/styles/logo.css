@@ -1,0 +1,37 @@
+.logo {
+  /*margin-bottom: 0.3rem;*/
+}
+
+.logo .logo-link {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.8rem 0;
+}
+
+.logo .logo-link:hover {
+  background: none;
+}
+
+/*.logo .logo-link h3 {*/
+/*  margin: 0;*/
+/*}*/
+
+/*.logo .logo-link:hover {*/
+/*  color: red;*/
+/*  background-color: transparent;*/
+/*}*/
+
+/*.logo .logo-desc {*/
+/*  font-style: italic;*/
+/*}*/
+
+.logo .build-date {
+  font-size: var(--font-size);
+  font-weight: 500;
+  margin-right: 0.3rem;
+}
+
+.logo .build-time {
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+}

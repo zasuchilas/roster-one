@@ -1,0 +1,18 @@
+-
+  date: 2021-06-12
+  text: Crazy Owl 50 Marina Tsvetaeva
+  slug: crazyowl
+  desc: "ночной ультрамарафон 50 km, Калужская область"
+  tags: [ 'trail-running' ]
+  links:
+    - { type: more, src: goldenultra.ru/crazyowl/ }
+-
+  date: 2021-06-20
+  text: Гонка Героев
+  slug: race-heroleague
+  desc: экстремальный забег - выбежать из своей зоны комфорта Самара/Челябинск
+  tags: [ 'ocr' ]
+  links:
+    - { type: more, src: heroleague.ru/race/ }
+    - { type: www, src: heroleague.ru }
+    - { type: vk, src: vk.com/herorace }

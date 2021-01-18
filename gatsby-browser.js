@@ -1,0 +1,11 @@
+import 'normalize.css';
+import './src/styles/root.css';
+import './src/styles/font.css';
+import './src/styles/global.css';
+import './src/styles/layout.css';
+import './src/styles/roster-row.css';
+import './src/styles/toggle-btn.css';
+import './src/styles/logo.css';
+import './src/styles/filter.css';
+import './src/styles/links.css';
+import './src/styles/navigation.css';

@@ -1,0 +1,8 @@
+-
+  date: 2021-10-02
+  text: Vottovaara Mountain Race
+  slug: vmr
+  desc: "14 .. 160 km, гора Воттоваара, Карелия"
+  tags: [ 'trail-running' ]
+  links:
+    - { type: more, src: runningheroes.ru/vmr/ }

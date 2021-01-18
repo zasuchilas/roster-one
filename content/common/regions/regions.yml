@@ -1,0 +1,41 @@
+-
+  text: Москва
+  slug: msk
+  desc: 'на территории Москвы и Московской области'
+  subregions:
+    - text: Балашиха
+      slug: balashikha
+      desc: 507K
+    - text: Сергиев Посад
+      slug: sergiev-posad
+      desc: 100K
+-
+  text: Санкт-Петербург
+  slug: spb
+  desc: 'на территории Санкт-Петербурга и Ленинградской области'
+  subregions:
+    - text: Гатчина
+      slug: Gatchina
+      desc: 91K
+    - text: Выборг
+      slug: Vyborg
+      desc: 75K
+    - text: Всеволожск
+      slug: vsevolozhsk
+      desc: 74K
+-
+  text: Ярославль
+  slug: yar
+  desc: 'на территории Ярославля и Ярославской области'
+  subregions:
+    - text: Рыбинск
+      slug: rybinsk
+    - text: Углич
+      slug: uglich
+-
+  text: Россия
+  slug: rus
+  desc: 'на территории России'
+- text: В мире
+  slug: world
+  desc: 'за пределами России'

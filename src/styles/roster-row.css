@@ -1,0 +1,107 @@
+.roster-row-block {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+.roster-row {
+  cursor: default;
+  padding: 0.8rem 0.3rem 0.8rem;
+  margin: 0 -0.3rem;
+  /*border-bottom: 1px var(--border) dashed;*/
+
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+
+  max-width: 280px;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/*@media screen and (min-width: 512px) {*/
+/*  .roster-row-block {*/
+/*    !*column-width: 250px;*!*/
+/*    column-count: 2;*/
+/*    column-fill: auto;*/
+/*    column-gap: 3rem;*/
+/*    column-rule: 1px dashed var(--border);*/
+/*  }*/
+/*}*/
+
+
+.roster-row.opened {
+  white-space: unset;
+}
+
+.roster-row:first-child {
+  /*border-top: 1px var(--border) dashed;*/
+}
+
+.roster-row {
+  background-color: var(--secondary-color);
+}
+
+.roster-row .row-header {
+  display: flex;
+  /*justify-content: space-between;*/
+}
+
+.roster-row .roster-date {
+  /*text-transform: capitalize;*/
+  font-weight: var(--weight-bold);
+  margin-bottom: 0.1rem;
+}
+
+.roster-row .roster-text {
+  font-weight: var(--weight-bold);
+}
+.roster-row .roster-desc p {
+  display: inline;
+}
+
+.roster-row .roster-tags {
+  font-style: italic;
+  text-transform: lowercase;
+  margin-right: 0.3rem;
+  /*word-break: break-all;*/
+}
+
+.roster-row .actions {
+  visibility: hidden;
+  margin-left: 0.8rem;
+}
+
+.roster-row:hover .actions {
+  visibility: visible;
+}
+
+.btn.action-btn {
+  border-bottom: none;
+  color: var(--action-btn);
+  font-size: 0.9rem;
+  margin-right: 0.8rem;
+}
+
+.roster-row.marked .roster-date,
+.roster-row.marked .roster-text,
+.roster-row.marked .roster-desc {
+  background-color: var(--yellow-marker);
+}
+
+.roster-row.marked {
+  margin-bottom: 0.2rem;
+}
+
+.roster-row.hidden .roster-date,
+.roster-row.hidden .roster-text,
+.roster-row.hidden .roster-desc {
+  opacity: 0.12;
+}
+.roster-row.hidden .roster-tags,
+.roster-row.hidden .roster-place-block,
+.roster-row.hidden .roster-links-block {
+  display: none;
+}
+
+.roster-row.hidden {}

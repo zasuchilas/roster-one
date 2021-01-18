@@ -1,0 +1,99 @@
+-
+  text: Главное
+  desc: по версии Roster.one (то что отобрано для главной страницы)
+  slug: index
+  items:
+    - index
+-
+  text: Политика
+  desc: по программе Политика (политические партии и движения, встречи с депутатами, чиновниками и др.)
+  slug: politics
+  items:
+    - politics
+-
+  text: Общество
+  desc: по программе Общество (события общественной жизни, волонтерство и др.)
+  slug: society
+  items:
+    - society
+-
+  text: Бизнес
+  desc: по программе Бизнес (события деловой жизни)
+  slug: business
+  items:
+    - business
+-
+  text: Образование
+  desc: по программе Образование (проф. курсы, самосовершенствование, коучи и др.)
+  slug: education
+  items:
+    - education
+-
+  text: Культура
+  desc: по программе Культура (искусство, выставки, творчество, литература, музыка, поэзия и др.)
+  slug: culture
+  items:
+    - culture
+    - exhibition
+    - museum
+-
+  text: Спорт
+  desc: по программе Спорт (марафоны, спорт. ориентирование, вольная борьба, футбол и др. виды спорта)
+  slug: sport
+  items:
+    - orienteering
+    - sport-tourism
+    - running
+    - trail-running
+    - ocr
+    - athletics
+    - ski
+    - biathlon
+    - grappling
+    - sambo
+    - freestyle-wrestling
+    - weightlifting
+    - crossfit
+    - rally
+    - f1
+    - motocross
+    - motor-show
+    - jeep-trial
+    - circuit-race
+    - drift
+-
+  text: Развленения
+  desc: по программе Развлечения (кино, концерты, выступления, конкурсы, игры и др.)
+  slug: entertainment
+  items:
+    - entertainment
+-
+  text: Бесплатно
+  desc: по программе Бесплатно (вход свободный, слот бесплатный и др.)
+  slug: free
+  items:
+    - free
+-
+  text: Дети
+  desc: по программе Дети (события для детей либо с предусмотренной детской частью)
+  slug: for-children
+  items:
+    - for-children
+-
+  text: Здоровье
+  desc: по программе Здоровье (медицина, народные средства, врачи, целители и др.)
+  slug: health
+  items:
+    - health
+-
+  text: Шопинг
+  desc: по программе Шопинг (покупки, акции, скидки, новые коллекции, поступления, распродажи и др.)
+  slug: shopping
+  items:
+    - shopping
+-
+  text: Услуги
+  desc: по программе Услуги (специальные условия в сфере услуг - скидки и др.)
+  slug: services
+  items:
+    - services

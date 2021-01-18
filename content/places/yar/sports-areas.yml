@@ -1,0 +1,12 @@
+-
+  text: У гостиницы Турист
+  slug: near-tourist-hotel
+  address: Ярославль, Республиканский пр., 5
+  coords: 57.643614, 39.879075
+  tags: [ 'sports-area' ]
+-
+  text: Ленина-17
+  slug: lenin-17
+  address: Ярославль, просп. Ленина, 17
+  coords: 57.643614, 39.879075
+  tags: [ 'sports-area' ]

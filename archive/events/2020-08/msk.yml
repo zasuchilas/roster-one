@@ -1,0 +1,17 @@
+-
+  date: 2020-08-02
+  text: Московский полумарафон
+  slug: moscowhalf
+  desc: по центральным улицам столицы / участие в Забег.РФ
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: moscowhalf.runc.run }
+-
+  date: 2020-08-22
+  text: Ночной забег
+  slug: nightrun10km
+  desc: 10 km по Москве после захода солнца
+  place: sk-lugniky
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: nightrun10km.runc.run }

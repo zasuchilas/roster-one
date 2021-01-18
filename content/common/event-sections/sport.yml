@@ -1,0 +1,74 @@
+-
+  text: Авторалли
+  slug: rally
+-
+  text: Автосалон
+  slug: motor-show
+  desc: Выставка автомобилей
+-
+  text: Бег
+  slug: running
+-
+  text: Биатлон
+  slug: biathlon
+-
+  text: Вольная борьба
+  slug: freestyle-wrestling
+-
+  text: Грэпплинг
+  slug: grappling
+-
+  text: Джип-триал
+  slug: jeep-trial
+-
+  text: Драг-рейсинг
+  slug: drag-racing
+  desc: Спринтерские заезды на четверть мили
+-
+  text: Дрифт
+  slug: drift
+-
+  text: OCR-забег
+  slug: ocr
+  desc: Гонки с препятствиями или OCR-забеги (от английского - Obstacle Course Race)
+-
+  text: Кольцевые гонки
+  slug: circuit-race
+-
+  text: Кроссфит
+  slug: crossfit
+  desc: Функциональный тренинг
+-
+  text: Легкая атлетика
+  slug: athletics
+-
+  text: Лыжи
+  slug: ski
+-
+  text: Мотокросс
+  slug: motocross
+-
+  text: Самбо
+  slug: sambo
+-
+  text: Скандинавская ходьба
+  slug: nordic-walking
+-
+  text: Спортивное ориентирование
+  slug: orienteering
+-
+  text: Спортивный туризм
+  slug: sport-tourism
+-
+  text: Трейл
+  slug: trail-running
+  desc: Бег по тропе / пересеченной местности
+-
+  text: Тяжелая атлетика
+  slug: weightlifting
+-
+  text: Триатлон
+  slug: triathlon
+-
+  text: Формула 1
+  slug: f1

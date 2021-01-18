@@ -1,0 +1,8 @@
+-
+  date: 2021-02-20
+  text: Студенческий кубок БС / 3 этап
+  desc: 60, 200, 400, 800 m, эстафета 4x200 m
+  place: manezh-niu-mgsu
+  tags: [ 'running', 'competitions' ]
+  links:
+    - { type: more, src: scrc.runc.run }

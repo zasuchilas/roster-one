@@ -1,0 +1,36 @@
+-
+  date: 2021-02-14
+  text: Любовь на бегу 2021
+  slug: loverun2021
+  desc: Loverun – забег всех влюбленных, парами и в одиночку 2.5-21.1 km, Уфа
+  tags: [ 'running', 'holiday' ]
+  links:
+    - { type: reg, src: https://russiarunning.com/event/loverun2021/ }
+    - { type: vk, src: https://vk.com/ilovesupersportufa }
+-
+  date: 2021-02-20
+  text: Державинская лыжня 2021
+  slug: tgu-2021
+  desc: Традиционный спортивный праздник Тамбовского государственного университета, спринт 1.5 km
+  tags: [ 'ski', 'holiday', 'competitions' ]
+  links:
+    - { type: more, src: https://russiarunning.com/event/85e1b38c-306a-4584-a2d6-e2d65c5d35c8/ }
+-
+  date: 2021-02-22
+  text: ICE VALDAICE
+  slug: ice_valdaice
+  desc: Большой outdoor праздник зимних видов спорта
+  tags: [ 'festival', 'running', 'ski' ]
+  links:
+    - { type: www, src: ivermile.ru/ice_valdaice/ }
+    - { type: vk, src: vk.com/ivermile_trailrun?w=wall-155262401_1382%2Fall }
+-
+  date: 2021-02-23
+  text: ICE VALDAICE 2021
+  slug: ice_valdaice_trail
+  desc: зимний трейл марафон по Валдайскому озеру
+  tags: [ 'running' ]
+  links:
+    - { type: www, src: ivermile.ru/ice_valdaice/ }
+    - { type: vk, src: vk.com/icevaldaice }
+    - { type: reg, src: russiarunning.com/event/1e4f46d2-0b67-401c-aa13-839cb2736ec3 }

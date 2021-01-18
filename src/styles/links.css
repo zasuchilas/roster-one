@@ -1,0 +1,18 @@
+.links {
+  margin: 0 0.3rem 0 0;
+  line-height: 120%;
+  word-break: break-all;
+}
+
+.links .links-link:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.links a.links-link sup {
+  margin-left: 0.1rem;
+}
+
+.links a.links-link:hover {
+  text-decoration: none;
+  border-bottom: 1px solid var(--primary-color);
+}

@@ -1,0 +1,8 @@
+-
+  date: 2021-05-30
+  text: ЗАБЕГ
+  desc: V Всероссийский полумарафон с синхронным стартом
+  place: zabeg
+  tags: [ 'running', 'festival' ]
+  links:
+    - { type: more, src: забег.рф/ }

@@ -1,0 +1,10 @@
+-
+  date: 2021-06-27
+  text: БЕЛЫЕ НОЧИ
+  slug: wnmarathon
+  desc: ХХХI международный марафон
+  tags: [ 'running', 'competitions' ]
+  links:
+    - { type: www, src: wnmarathon.ru }
+    - { type: vk, src: vk.com/wnmarathon }
+    - { type: reg, src: russiarunning.com/event/IntMarathonSpb2020 }

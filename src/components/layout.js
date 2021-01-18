@@ -1,0 +1,66 @@
+import React, { Component, Fragment } from 'react';
+import Logo from './logo';
+import Navigation from './navigation';
+
+const SCROLL_OFFSET = 512;
+
+class Layout extends Component {
+  constructor(props) {
+    super(props);
+    this.ref = React.createRef();
+  }
+
+  scrollToLeft = () => {
+    this.ref.current.scrollLeft -= SCROLL_OFFSET;
+  };
+
+  scrollToRight = () => {
+    this.ref.current.scrollLeft += SCROLL_OFFSET;
+  };
+
+  render() {
+    const { children, layoutData } = this.props;
+    const { siteMetadata, buildDate, buildTime } = layoutData;
+    const {
+      logoText,
+      logoDesc,
+      logoDescButton,
+      logoDescDetails,
+    } = siteMetadata;
+    const logoProps = {
+      logoText,
+      logoDesc,
+      logoDescButton,
+      logoDescDetails,
+      buildDate,
+      buildTime,
+    };
+
+    return (
+      <Fragment>
+        <button className="btn scroll-btn to-left" onClick={this.scrollToLeft}>
+          Влево
+        </button>
+        <button
+          className="btn scroll-btn to-right"
+          onClick={this.scrollToRight}
+        >
+          Вправо
+        </button>
+
+        <div className="layout" ref={this.ref}>
+          <header>
+            <Logo {...logoProps} />
+            <Navigation {...layoutData} />
+          </header>
+          <div className="article">{children}</div>
+          <footer className="footer">
+            <div>{logoDescDetails}</div>
+          </footer>
+        </div>
+      </Fragment>
+    );
+  }
+}
+
+export default Layout;

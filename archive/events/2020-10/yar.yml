@@ -1,0 +1,9 @@
+-
+  date: 2020-10-31
+  text: Зачетный миник
+  desc: 5 km забег на время
+  slug: yazabeg-test
+  place: yazabeg-cnti
+  tags: [ 'running', 'competitions' ]
+  links:
+    - { type: vk, src: vk.com/yazabeg }

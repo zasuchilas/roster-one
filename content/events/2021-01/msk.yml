@@ -1,0 +1,62 @@
+-
+  date: 2021-01-02
+  text: Битцевская Прямая
+  slug: bitsevskaya-pramaya-114
+  desc: 114 Пробег-Марафон Новый Год 2021, 0.5-50 km, 6 часов нон-стоп, Битцевский лесопарк
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: http://www.begisveterkom.ru/uslugi.html }
+    - { type: reg, src: https://russiarunning.com/event/fde22060-981d-4e93-8218-1faa037fd4c0 }
+-
+  date: 2021-01-05
+  text: Салтыковский круг
+  slug: saltykovsky-28
+  desc: 28 Пробег-Марафон, 0.5-50 km, 6 часов нон-стоп, Салтыковский лесопарк
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: http://www.begisveterkom.ru/uslugi.html }
+    - { type: reg, src: https://russiarunning.com/event/e66e2cfe-dee4-4e97-8cc1-0dfa77e92f90 }
+-
+  date: 2021-01-07
+  text: Битцевская Прямая
+  slug: bitsevskaya-pramaya-115
+  desc: 115 Пробег-Марафон Рождество 2021, 0.5-50 km, 6 часов нон-стоп, Битцевский лесопарк
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: http://www.begisveterkom.ru/uslugi.html }
+    - { type: reg, src: https://russiarunning.com/event/40e72fa1-6557-4207-833e-a07dd7505ee1 }
+-
+  date: 2021-01-09
+  text: Битцевская Прямая
+  slug: bitsevskaya-pramaya-116
+  desc: 116 Пробег-Марафон Рождество 2021, 0.5-50 km, 6 часов нон-стоп, Битцевский лесопарк
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: http://www.begisveterkom.ru/uslugi.html }
+    - { type: reg, src: https://russiarunning.com/event/34bb7855-bc83-4158-983e-2b7a4d0c2683 }
+-
+  date: 2021-01-17
+  text: Салтыковский круг
+  slug: saltykovsky-29
+  desc: 29 Пробег-Марафон, 0.5-50 km, 6 часов нон-стоп, Салтыковский лесопарк
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: http://www.begisveterkom.ru/uslugi.html }
+    - { type: reg, src: https://russiarunning.com/event/9cb37203-0e6a-4b34-b671-90ca0f173a6b }
+-
+  date: 2021-01-24
+  text: Битцевская Прямая
+  slug: bitsevskaya-pramaya-117
+  desc: 117 Пробег-Марафон Рождество 2021, 0.5-50 km, 6 часов нон-стоп, Битцевский лесопарк
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: http://www.begisveterkom.ru/uslugi.html }
+    - { type: reg, src: https://russiarunning.com/event/5ef9c7b2-cd54-4853-8ff5-f9a70689618e }
+-
+  date: 2021-01-31
+  text: YETI TRAIL MSK 2021
+  slug: yeti-trail
+  desc: суровые 5-10 миль, Битцевский лес
+  tags: [ 'trail-running' ]
+  links:
+    - { type: more, src: https://dab-running.ru/races/yeti-trail-/ }

@@ -1,0 +1,13 @@
+-
+  text: Соревнования
+  slug: competitions
+-
+  text: Повторяющееся
+  slug: repeat
+-
+  text: Праздник
+  slug: holiday
+-
+  text: Фестиваль
+  slug: festival
+  desc: Большой организованный праздник

@@ -1,0 +1,8 @@
+-
+  date: 2020-08-22
+  text: Северная столица
+  slug: spbhalf
+  desc: Полумарафон и 10 km в один круг по историческому центру города
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: spbhalf.runc.run }

@@ -1,0 +1,16 @@
+-
+  date: 2020-12-20
+  text: Mad Fox Ultra Rise
+  slug: madfox
+  desc: "K10-K20-K40, 50 miles, Valhalla Race 100 miles, Переславль-Залесский"
+  tags: [ 'trail-running' ]
+  links:
+    - { type: more, src: goldenultra.ru/madfox/ }
+-
+  date: 2020-12-27
+  text: PROБег Снежным путем
+  slug: probeg-snow-run
+  desc: 6-12-24 km, с. Толбухино, Ярославский р-н.
+  tags: [ 'trail-running', 'holiday', 'museum', 'index' ]
+  links:
+    - { type: more, src: https://vk.com/probegyar?w=wall-196954053_1764 }

@@ -1,0 +1,8 @@
+-
+  date: 2020-12-27
+  text: Здравствуй, Новый Год!
+  slug: new-year-gatchina-2020
+  desc: пробег 5/10/30 km асфальт, Гатчина
+  tags: [ 'running', 'competitions' ]
+  links:
+    - { type: reg, src: https://russiarunning.com/event/NewYearGatchina2020/ }

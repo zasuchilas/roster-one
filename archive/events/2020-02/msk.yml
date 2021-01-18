@@ -1,0 +1,9 @@
+-
+  date: 2020-08-02
+  text: Скорость
+  slug: speedrace
+  desc: Соревнования в помещении на дистанциях от 60 до 3000 m
+  place: manezh-niu-mgsu
+  tags: [ 'running', 'competitions' ]
+  links:
+    - { type: more, src: speedrace.runc.run }

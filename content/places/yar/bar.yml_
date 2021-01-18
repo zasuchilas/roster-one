@@ -1,0 +1,38 @@
+-
+  text: Peppers
+  slug: peppers
+  address: Ярославль, Кирова, д. 12
+  links:
+    - { type: www, src: ya.ru }
+    - { type: vk, src: ya.ru }
+    - { type: tel, num: 555-55-55 }
+    - { type: fax, num: 555-55-56 }
+    - { type: mob, num: 555-55-57 }
+  ext: {
+    text: Расширенный текст для страницы
+      description: SEO для страницы
+      expiration: 2020-10-23
+  }
+  color: tomato
+  expiration: 2020-10-23
+-
+  text: Крапива # бар, паб
+  slug: krapiva
+  address: Ярославль, Кирова, д. 14
+  links:
+    - { type: www, src: ya.ru }
+    - { type: vk, src: ya.ru }
+    - { type: tel, num: 555-55-55 }
+  expiration: 2020-10-25
+-
+  text: Пивоваръ # пивной ресторан | ежедневно, 12:00–00:00
+  slug: pivovar
+  address: Ярославль, Революционный пр., 14
+  links:
+    - { type: www, src: http://yarpivovar.ru/ }
+#    - { type: inst, src: https://www.instagram.com/pivovar_yaroslavl/ }
+#    - { type: tel, num: +7 4852 64-04-31 }
+#    - { type: tel, num: +7 4852 64-04-32 }
+  expiration: 2020-10-25
+#  Бизнес-ланч, летняя веранда, детская комната, кофе с собой, оплата картой, еда навынос, средний счёт 1000 ₽, завтрак, Wi-Fi, спортивные трансляции. Кухня: европейская, русская. Цены: выше среднего. Тип заведения: детское кафе, пивной ресторан. Доступность входа на кресле-коляске: частично доступно.
+

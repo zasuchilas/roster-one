@@ -1,0 +1,27 @@
+-
+  text: Тверицкий бор
+  desc: пивной ресторан
+  slug: tveritsky-bor
+  address: Ярославль, Заволжский р-н, Тверицкий бор
+  coords: 57.645809, 39.928821
+  links:
+    - { type: www, src: ya.ru }
+    - { type: vk, src: ya.ru }
+    - { type: tel, src: 555-55-55 }
+    - { type: fax, src: 555-55-56 }
+    - { type: mob, src: 555-55-57 }
+  extExp: 2020-10-23
+  extText: Возможность добавить дополнительную информацию и картинки
+  extEvents: true # формировать список событий
+  extSeoDesc: SEO для страницы
+-
+  text: Березовая роща
+  slug: berezovaya-roscha
+  subregion: uglich
+  address: Углич, Березовая роща
+  coords: 57.645809, 39.928821
+# Дом купца Ерыкаева, 19 век ! если там что-то есть event
+-
+  text: яЗАбег/ЦНТИ
+  slug: yazabeg-cnti
+  address: Ярославль, Волжская наб., лестница к Волге у ЦНТИ

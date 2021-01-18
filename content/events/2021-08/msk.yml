@@ -1,0 +1,8 @@
+-
+  date: 2021-08-15
+  text: Лужники
+  slug: luzhnikihalf
+  desc: полумарафон в один круг по набережным столицы
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: luzhnikihalf.runc.run }

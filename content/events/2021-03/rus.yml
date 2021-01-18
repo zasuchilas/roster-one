@@ -1,0 +1,8 @@
+-
+  date: 2021-03-21
+  text: Лыжный марафон им. Г.А. Кулаковой 2021
+  slug: lyzhnyy-marafon-im-g-a-kulakovoy-2021
+  desc: именитые спортсмены, дистанции от 1000 m до 50 km, Ижевск
+  tags: [ 'ski', 'competitions' ]
+  links:
+    - { type: more, src: kalashnikov.sport/event/lyzhnyy-marafon-im-g-a-kulakovoy-2021 }

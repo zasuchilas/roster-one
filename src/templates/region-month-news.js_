@@ -1,0 +1,40 @@
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from '../components/layout';
+import NewsRow from '../components/news-row';
+
+const RegionMonthNews = ({ data }) => {
+  const rows = data.allYaml.edges.map(({ node }) => {
+    return <NewsRow node={node} />;
+  });
+  return <Layout>{rows}</Layout>;
+};
+
+export default RegionMonthNews;
+
+export const query = graphql`
+  query($base: String!) {
+    allYaml(filter: { fields: { base: { eq: $base } } }) {
+      edges {
+        node {
+          title
+          date(formatString: "dd DD.MM.YYYY", locale: "ru")
+          link
+          slug
+          place
+          link
+          links {
+            type
+            src
+          }
+          fields {
+            base
+            folder
+            city
+            month
+          }
+        }
+      }
+    }
+  }
+`;

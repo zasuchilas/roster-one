@@ -1,0 +1,77 @@
+-
+  date: 2020-12-05
+  text: Студенческий кубок БС / 2 этап
+  desc: 60, 200, 400, 800 m, эстафета 4x200 m
+  place: manezh-niu-mgsu
+  tags: [ 'running', 'competitions' ]
+  links:
+    - { type: more, src: scrc.runc.run }
+-
+  date: 2020-12-05
+  text: Битцевская Прямая
+  slug: bitsevskaya-pramaya-112
+  desc: 112 Пробег-Марафон, 0.5-50 km, 6 часов нон-стоп, Битцевский лесопарк
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: http://www.begisveterkom.ru/uslugi.html }
+    - { type: reg, src: russiarunning.com/event/1db11e31-7eac-458c-999a-028bdbe1a4a6/ }
+-
+  date: 2020-12-05
+  text: MOSCOW RACE OCR & Run
+  slug: Moscowrace512
+  desc: кросс 10 km, гонка с препятствиями 7+ km, парк 850-летия Москвы
+  tags: [ 'ocr', 'running', 'holiday' ]
+  links:
+    - { type: more, src: https://race.moscow/ }
+    - { type: reg, src: https://russiarunning.com/event/Moscowrace512/ }
+-
+  date: 2020-12-12
+  text: Игры Героев
+  desc: командное прохождение испытаний МАНЕЖ ЦСКА
+  place: herogames
+  tags: [ 'ocr', 'crossfit', 'athletics', 'competitions' ]
+  links:
+    - { type: more, src: heroleague.ru/herogames/ }
+-
+  date: 2020-12-19
+  text: XIII Некрасовский марафон
+  desc: 5, 10, 21, 42.2, 50 km
+  place: xiii-nekrasov-marathon
+  tags: [ 'running' ]
+  links:
+    - { type: reg, src: https://russiarunning.com/event/5d4319f0-de90-4159-9f69-20056387ab0a/ }
+-
+  date: 2020-12-26
+  text: DAB VERTICAL WINTER NIGHT
+  slug: dab-vertical-winter-night
+  desc: 2-ой забег серии в горнолыжном центре, 1-5-10 km с набором 40-250-500 m, Москва/м. Нагорная
+  tags: [ 'trail-running' ]
+  links:
+    - { type: more, src: https://dab-running.ru/races/dab-vertical-winter-night-/ }
+-
+  date: 2020-12-26
+  text: Покровские Пруды
+  slug: pokrovsky
+  desc: 34 Предновогодний Пробег-Марафон, 0.5-50 km, 6 часов нон-стоп, м. Войковская
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: http://www.begisveterkom.ru/uslugi.html }
+    - { type: www, src: https://probeg.org/event/35766/ }
+    - { type: reg, src: https://russiarunning.com/event/272df2e1-fd80-4a38-818b-8c1e1136d2b3/ }
+-
+  date: 2020-12-27
+  text: Битцевская Прямая
+  slug: bitsevskaya-pramaya-113
+  desc: 113 Предновогодний Пробег-Марафон, 0.5-50 km, 6 часов нон-стоп, Битцевский лесопарк
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: http://www.begisveterkom.ru/uslugi.html }
+    - { type: reg, src: https://russiarunning.com/event/4bcab969-a8cc-40d4-850d-34d4b6a0582e }
+-
+  date: 2020-12-27
+  text: Звезды детского спринта WRF 2020
+  slug: wrf-2020
+  desc: всероссийский турнир, 60 m для юных любителей спорта
+  tags: [ 'running' ]
+  links:
+    - { type: reg, src: https://russiarunning.com/event/eee9f43f-113e-41e3-bf72-7c06b9323851/ }

@@ -1,0 +1,36 @@
+/*Archive page*/
+
+.nav-block {
+  margin: 1rem 0;
+}
+
+.nav-block .filter-tag {
+  font-weight: var(--weight-bold);
+}
+
+/* Navigation menu */
+
+.nav-body {
+  margin: 0.5rem 0;
+}
+
+.nav-body .links-link {
+  font-weight: var(--weight-bold);
+}
+
+.nav-body .filter-tag {
+  font-weight: var(--weight-bold);
+}
+
+/* Settings menu */
+.setting-body {
+  margin: 0.5rem 0;
+}
+
+.setting-body .links-link {
+  font-weight: var(--weight-bold);
+}
+
+.setting-body .filter-tag {
+  font-weight: var(--weight-bold);
+}

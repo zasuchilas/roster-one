@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,400;0,500;1,400;1,900&display=swap');
+
+*, html, body {
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  font-weight: var(--weight-regular);
+  font-size: var(--font-size);
+}
+
+@media screen and (max-width: 512px), screen and (max-height: 512px) {
+  *, html, body {
+    font-size: var(--font-size-sm);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.5rem;
+  font-weight: var(--weight-bold);
+}
+
+p {
+  margin: 0 0 0.3rem;
+  font-weight: var(--weight-regular);
+  /*font-weight: bolder;*/
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-style: italic;
+  font-weight: var(--weight-black);
+  line-height: 1;
+  margin: 0.8rem 0;
+}
+
+.subtitle {
+  font-weight: var(--weight-bold);
+}
+
+.lead-text,
+.lead-text p {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: var(--weight-regular);
+  line-height: 1.1;
+  margin: 0 0 1.5rem;
+}
+
+.lead-text p span {
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+a:visited {
+  color: var(--link-visited);
+}
+
+a:hover {
+  background-color: var(--btn-hover);
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: var(--weight-bold);
+}
+
+.comment-block {
+  display: flex;
+  font-size: var(--font-size-xs);
+  font-style: italic;
+  font-weight: var(--weight-regular);
+}
+
+.comment-block * {
+  font-size: var(--font-size-xs) !important;
+}

@@ -1,0 +1,20 @@
+.toggle-btn .btn, .toggle-btn.btn {
+  margin-right: 0.3rem;
+  cursor: pointer;
+  padding: 0 0px;
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px var(--primary-color) dashed;
+}
+
+.toggle-btn .btn:hover, .toggle-btn.btn:hover {
+  /*background-color: lightyellow;*/
+  /*border-bottom: 1px red dashed;*/
+  /*border-bottom: 2px lightslategray dotted;*/
+  background-color: var(--btn-hover);
+}
+
+.toggle-btn .btn:focus, .toggle-btn.btn:focus {
+  outline: none;
+}

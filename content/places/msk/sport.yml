@@ -1,0 +1,25 @@
+-
+  text: runc.run
+  slug: runc-run
+  desc: Беговое сообщество
+  address: Москва, ул. Лужники, д. 24, стр.39, ком. 15, пом. I
+  links:
+    - { type: www, src: runc.run }
+    - { type: tel, src: 8 800 777-12-04 }
+    - { type: tel, src: +7 495 481-22-04 }
+-
+  text: СК Лужники
+  slug: sk-lugniky
+  address: Москва, Лужники, м. Спортивная, Воробьевы горы, ост. МЦК Лужники
+  links:
+    - { type: www, src: www.luzhniki.ru }
+-
+  text: Лысая гора
+  slug: lysaya-gora
+  address: Москва, парк "Битцевский лес"
+  links:
+    - { type: на карте, src: https://yandex.ru/maps/-/CCQ356gt8B }
+-
+  text: Манеж НИУ МГСУ
+  slug: manezh-niu-mgsu
+  address: Москва, Ярославское ш., 26, стр. 4, м. Бабушкинская, Белокаменная, Ростокино

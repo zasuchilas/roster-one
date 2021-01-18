@@ -1,0 +1,34 @@
+-
+  date: 2021-04-04
+  text: Студенческий кубок БС / 4 этап
+  slug: scrc
+  desc: 5 km на шоссе
+  place: sk-lugniky
+  tags: [ 'running', 'competitions' ]
+  links:
+    - { type: more, src: scrc.runc.run }
+-
+  date: 2021-04-04
+  text: Забег "Апрель"
+  slug: aprilrun5km
+  desc: 5 km вокруг Олимпийского комплекса "Лужники"
+  tags: [ 'running' ]
+  links:
+    - { type: more, src: aprilrun5km.runc.run }
+-
+  date: 2021-04-17
+  text: Студенческий кубок БС / 5 этап
+  slug: scrc
+  desc: Серия соревнований московских вузов. Кросс 4, 6, 4x1 km
+  place: lysaya-gora
+  tags: [ 'running', 'competitions' ]
+  links:
+    - { type: www, src: scrc.runc.run }
+-
+  date: 2021-04-17
+  text: DAB VERTICAL SPRING BUFF
+  slug: dab-vertical-spring-buff
+  desc: 3-ий забег серии в горнолыжном центре, 1-6-12 km с набором 40-250-500 m, Москва/м. Нагорная
+  tags: [ 'trail-running' ]
+  links:
+    - { type: more, src: https://dab-running.ru/races/Four%20Seasons%20DAB%20Vertical/ }

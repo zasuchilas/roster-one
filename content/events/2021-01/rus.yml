@@ -1,0 +1,27 @@
+-
+  date: 2021-01-24
+  text: IRON SKIER-IMS
+  slug: iron-skier-ims
+  desc: Лыжный ультрамарафон, 55 km или 4 часа, Пермский край
+  tags: [ 'ski' ]
+  links:
+    - { type: reg, src: https://russiarunning.com/event/5a4b5a73-2d68-444e-91f1-3262196ac12d/ }
+-
+  date: 2021-01-28
+  text: Сокольи Горы - Russialoppet
+  slug: ski2021
+  desc: Самарский лыжный марафон, 28-30-31 января, в т.ч. ночной старт, 5-51 km, свободный и классический стили
+  tags: [ 'ski' ]
+  links:
+    - { type: reg, src: https://russiarunning.com/event/ski2021/ }
+    - { type: more, src: http://www.ski63.ru/ }
+-
+  date: 2021-01-31
+  text: Зимний костюмированный забег
+  slug: zimniizabeg2021
+  desc: Серия стартов STRELA, 5-10-21 km, скандинавская ходьба 5 km, детский забег, Екатеринбург
+  tags: [ 'holiday', 'running', 'nordic-walking', 'child-program' ]
+  links:
+    - { type: reg, src: https://russiarunning.com/event/zimniizabeg2021/ }
+    - { type: more, src: http://strelarun.ru/ }
+    - { type: vk, src: https://vk.com/strelarun }

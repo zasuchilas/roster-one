@@ -1,0 +1,8 @@
+-
+  date: 2020-10-02 # updated date for sorting
+  text: Турники
+  # slug: sports-area <- filename
+  desc: Мы поискали турники по городу. И вот - спортивные площадки, где вы можете подтягиваться, отжиматься и проч.
+  items:
+    - near-tourist-hotel
+    - lenin-17

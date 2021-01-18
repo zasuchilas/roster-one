@@ -1,0 +1,33 @@
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from '../components/layout';
+import NewsRow from '../components/news-row';
+
+const SingleNews = ({ data }) => {
+  const node = data.yaml;
+  return (
+    <Layout>
+      <NewsRow node={node} />
+    </Layout>
+  );
+};
+
+export default SingleNews;
+
+export const query = graphql`
+  query($base: String!, $slug: String!) {
+    yaml(slug: { eq: $slug }, fields: { base: { eq: $base } }) {
+      title
+      date
+      link
+      slug
+      place
+      fields {
+        base
+        folder
+        city
+        month
+      }
+    }
+  }
+`;

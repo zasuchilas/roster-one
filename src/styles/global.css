@@ -1,0 +1,89 @@
+
+html {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+body {
+  position: relative;
+}
+
+.mt-sm {
+  margin-top: 0.3rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-sm {
+  margin-bottom: 0.3rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.mr-1 {
+  margin-right: 0.3rem;
+}
+
+.dark-page-header {
+  border-top: 1px dashed var(--border);
+  background-color: var(--dark-header);
+  margin: 0 -0.3rem;
+  padding: 1rem 0.3rem;
+}
+
+.article-header {
+  border-top: 1px dashed var(--border);
+  padding: 1.5rem 0 1rem;
+}
+
+.page-header {
+  border-top: 1px var(--border) dashed;
+  margin: 0 -0.3rem;
+  padding: 1rem 0.3rem;
+}
+
+.border-bottom {
+  border-bottom: 1px var(--border) dashed;
+}
+
+.border-top {
+  border-top: 1px var(--border) dashed;
+}
+
+.btn {
+  margin-right: 0.3rem;
+  cursor: pointer;
+  padding: 0 0px;
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px var(--primary-color) dashed;
+}
+
+.btn:hover {
+  background-color: var(--btn-hover);
+}
+
+.btn:focus {
+  outline: none;
+}

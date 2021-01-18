@@ -1,0 +1,8 @@
+-
+  date: 2020-11-07
+  text: Urban
+  slug: urban-heroleague
+  desc: компактный формат Гонки Героев
+  tags: [ 'ocr' ]
+  links:
+    - { type: more, src: urban.heroleague.ru/ }

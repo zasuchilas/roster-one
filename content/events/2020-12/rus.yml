@@ -1,0 +1,35 @@
+-
+  date: 2020-12-06
+  text: Чемпионат России по марафону
+  slug: championat_russia_2021
+  desc: известные атлеты на самой быстрой трассе Европы, лимит трассы 3:30, Адлер
+  tags: [ 'running', 'competitions' ]
+  links:
+    - { type: more, src: https://russiarunning.com/event/championat_russia_2021/ }
+-
+  date: 2020-12-20
+  text: Нырысь лымы / Первый снег
+  slug: nyrys-lymy
+  desc: 5 km, 2.5km, суперспринт 100 m, Ижевск
+  tags: [ 'ski', 'competitions' ]
+  links:
+    - { type: more, src: kalashnikov.sport/event/sorevnovaniya-po-lyzhnym-gonkam-nyrys-lymy }
+    - { type: reg, src: russiarunning.com/event/lyzhnye-gonki-nyrys-lymy }
+-
+  date: 2020-12-20
+  text: Indoor Triathlon Perm 2020
+  desc: бассейн, велостанок, беговая дорожка, Пермь/фитнес-клуб X-FIT
+  place: indoor-triathlon-perm-2020
+  tags: [ 'triathlon', 'competitions' ]
+  links:
+    - { type: vk, src: vk.com/marafonperm }
+    - { type: reg, src: https://russiarunning.com/event/cb76a6b3-f97b-4d10-a309-edd6677ef789/ }
+-
+  date: 2020-12-26
+  text: Калашников Спорт. Биатлон 2020
+  slug: kalashnikov-sport-biatlon-2020
+  desc: любительский старт 4.5 km, 2 огневых рубежа, Ижевск
+  tags: [ 'biathlon', 'competitions' ]
+  links:
+    - { type: more, src: kalashnikov.sport/event/kalashnikov-sport-biatlon-2020 }
+    - { type: reg, src: https://russiarunning.com/event/4469f5a2-41be-4547-82eb-523fefaadc51/ }
