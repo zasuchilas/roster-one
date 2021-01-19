@@ -28,7 +28,8 @@ class Logo extends Component {
         <div className="comment-block">
           <div className="mr-1">*</div>
           <div>
-            <div>Roster.one (ростер ван) список номер один</div>
+            <div>Roster.one - сводный календарь событий</div>
+            {/*<div>Roster.one (ростер ван) список номер один<br/>сводный календарь событий</div>*/}
           </div>
         </div>
       </div>
