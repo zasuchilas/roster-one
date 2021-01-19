@@ -62,7 +62,7 @@
     - circuit-race
     - drift
 -
-  text: Развленения
+  text: Развлечения
   desc: по программе Развлечения (кино, концерты, выступления, конкурсы, игры и др.)
   slug: entertainment
   items:
