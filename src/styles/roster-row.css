@@ -89,9 +89,7 @@
   background-color: var(--yellow-marker);
 }
 
-.roster-row.marked {
-  margin-bottom: 0.2rem;
-}
+.roster-row.marked {}
 
 .roster-row.hidden .roster-date,
 .roster-row.hidden .roster-text,
