@@ -114,7 +114,7 @@ class Filter extends Component {
     return (
       <div className="filter">
         {filterBody}
-        <div className="comment-block mt-sm">
+        <div className="comment-block mt-1">
           <div className="mr-1">***</div>
           <div>
             <div>{commentText}</div>

@@ -9,7 +9,7 @@ const Navigation = props => {
       <div className="comment-block mt-1">
         <div className="mr-1">**</div>
         <div>
-          <div>События по регионам и программы событий</div>
+          <div>События по регионам и видам</div>
           <div>{eventCountText}</div>
           <div>Обратная связь: telegram</div>
         </div>
