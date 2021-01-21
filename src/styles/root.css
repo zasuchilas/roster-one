@@ -39,9 +39,10 @@
   /* alegreya theme */
   --font-family: var(--font-alegreya);
   --line-height: 1.3;
+  --line-height-lg: 1.4;
   --font-size: 16px;
-  --font-size-sm: 14px;
-  --font-size-xs: 13px;
+  --font-size-sm: 16px;
+  --font-size-xs: 14px;
   --weight-regular: 400;
   --weight-bold: 500;
   --weight-black: 900;

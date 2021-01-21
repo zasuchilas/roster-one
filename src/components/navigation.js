@@ -6,7 +6,7 @@ const Navigation = props => {
   return (
     <div className="navigation mt-4 mb-4">
       <Links linkList={links} inner={true} />
-      <div className="comment-block mt-sm">
+      <div className="comment-block mt-1">
         <div className="mr-1">**</div>
         <div>
           <div>События по регионам и программы событий</div>

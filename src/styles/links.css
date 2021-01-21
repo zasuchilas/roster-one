@@ -1,7 +1,9 @@
 .links {
   margin: 0 0.3rem 0 0;
-  line-height: 120%;
   word-break: break-all;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: var(--line-height-lg);
 }
 
 .links .links-link:not(:last-child) {

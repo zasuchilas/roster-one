@@ -52,7 +52,7 @@ const getEventCountText = (events, today) => {
     'события',
     'событий',
   ]);
-  return `Всего в наличии ${actualEvents} ${actualUnit}.`;
+  return `Всего в наличии ${actualEvents} ${actualUnit}`;
 };
 
 const parseNavigationLinks = listTemplatePagesData => {
