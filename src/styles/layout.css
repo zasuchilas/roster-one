@@ -62,7 +62,7 @@
   }
 
   .layout .article-header {
-    max-width: 250px;
+    max-width: 280px;
     border-top: none;
     padding: 0.5rem 0 1rem;
   }
@@ -88,6 +88,10 @@
 
   .scroll-btn.to-right {
     right: 10px;
+  }
+
+  .roster-row {
+    max-width: 280px;
   }
 }
 

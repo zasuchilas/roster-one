@@ -14,7 +14,7 @@
   overflow-x: hidden;
   white-space: nowrap;
 
-  max-width: 280px;
+  /*max-width: 280px;*/
   page-break-inside: avoid;
   break-inside: avoid;
 }

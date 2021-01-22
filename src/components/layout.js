@@ -10,6 +10,17 @@ class Layout extends Component {
     this.ref = React.createRef();
   }
 
+  componentDidMount() {
+    this.setRoot();
+  }
+
+  setRoot = () => {
+    if (+document.documentElement.clientHeight >= 512) {
+      const fontSize = `${+document.documentElement.clientWidth * 0.046}px`;
+      document.documentElement.style.setProperty('--font-size-sm', fontSize);
+    }
+  }
+
   scrollToLeft = () => {
     this.ref.current.scrollLeft -= SCROLL_OFFSET;
   };

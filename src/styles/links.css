@@ -1,9 +1,14 @@
 .links {
   margin: 0 0.3rem 0 0;
-  /*word-break: break-all;*/
-  /*word-wrap: break-word;*/
+  width: 280px;
+  word-break: break-all;
+  word-wrap: break-word;
   overflow-wrap: break-word;
   line-height: var(--line-height-lg);
+}
+
+.links .links-link {
+  display: inline-block;
 }
 
 .links .links-link:not(:last-child) {
