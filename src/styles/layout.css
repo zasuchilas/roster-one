@@ -53,7 +53,7 @@
   }
 
   .layout .article {
-    column-width: 250px;
+    column-width: 280px;
     column-fill: auto;
     column-gap: 3rem;
     column-rule: 1px dashed var(--border);
