@@ -6,7 +6,7 @@
 
 .roster-row {
   cursor: default;
-  padding: 0.8rem 0.3rem 0.8rem;
+  padding: 0.5rem 0.3rem 0.5rem;
   margin: 0 -0.3rem;
   /*border-bottom: 1px var(--border) dashed;*/
 
@@ -56,15 +56,19 @@
 .roster-row .roster-text {
   font-weight: var(--weight-bold);
 }
-.roster-row .roster-desc p {
-  display: inline;
+.roster-row .roster-desc {
+  margin: 0.15rem 0;
+}
+.roster-row .roster-desc span {
+  font-size: 0.85rem;
 }
 
 .roster-row .roster-tags {
+  font-size: 0.85rem;
   font-style: italic;
   text-transform: lowercase;
-  margin-right: 0.3rem;
-  /*word-break: break-all;*/
+  /*margin-right: 0.3rem;*/
+  margin: 0 0.3rem 0rem 0;
 }
 
 .roster-row .actions {
@@ -76,6 +80,10 @@
   visibility: visible;
 }
 
+.roster-row .roster-links-block a.links-link {
+  font-size: 0.9rem;
+}
+
 .btn.action-btn {
   border-bottom: none;
   color: var(--action-btn);
@@ -85,20 +93,22 @@
 
 .roster-row.marked .roster-date,
 .roster-row.marked .roster-text,
-.roster-row.marked .roster-desc {
+.roster-row.marked .roster-desc span,
+.roster-row.marked .roster-tags span,
+.roster-row.marked .roster-links-block .links {
   background-color: var(--yellow-marker);
 }
 
 .roster-row.marked {}
 
 .roster-row.hidden .roster-date,
-.roster-row.hidden .roster-text,
-.roster-row.hidden .roster-desc {
+.roster-row.hidden .roster-text {
   opacity: 0.12;
 }
 .roster-row.hidden .roster-tags,
 .roster-row.hidden .roster-place-block,
-.roster-row.hidden .roster-links-block {
+.roster-row.hidden .roster-links-block,
+.roster-row.hidden .roster-desc {
   display: none;
 }
 

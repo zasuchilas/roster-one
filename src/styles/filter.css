@@ -17,12 +17,13 @@
 
 .filter .filter-tag {
   margin-right: 0.3rem;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.3rem;
   padding: 0 0.1rem;
   cursor: pointer;
   border: 0;
   background-color: transparent;
   color: var(--primary-color);
+  font-size: 1.1rem;
 }
 
 .filter .filter-tag:focus {

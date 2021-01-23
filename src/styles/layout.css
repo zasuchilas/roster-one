@@ -93,6 +93,14 @@
   .roster-row {
     max-width: 280px;
   }
+
+  .links .links-link {
+    font-size: 1rem !important;
+  }
+
+  .filter .filter-tag {
+    font-size: 1rem !important;
+  }
 }
 
 /*@media screen and (min-width: 512px) {*/

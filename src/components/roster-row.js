@@ -23,7 +23,7 @@ const RosterRow = props => {
   const { dateFormated, text, desc, tagsDetails, links, pathKey } = node;
 
   const tagsBlock = (
-    <div className="roster-tags">{tagsDetails.join(' | ')}</div>
+    <div className="roster-tags"><span>{tagsDetails.join(' | ')}</span></div>
   );
 
   return (
@@ -58,8 +58,8 @@ const RosterRow = props => {
         <div>
           <span className="roster-text">{text}</span>
         </div>
-        <div>
-          <span className="roster-desc">{desc}</span>
+        <div className="roster-desc">
+          <span>{desc}</span>
         </div>
         <div className="roster-place-block">
           {' '}
