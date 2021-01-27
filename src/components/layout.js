@@ -31,7 +31,7 @@ class Layout extends Component {
 
   render() {
     const { children, layoutData } = this.props;
-    const { siteMetadata, buildDate, buildTime } = layoutData;
+    const { siteMetadata, buildDate, buildTime, eventCountText } = layoutData;
     const {
       logoText,
       logoDesc,
@@ -45,6 +45,7 @@ class Layout extends Component {
       logoDescDetails,
       buildDate,
       buildTime,
+      eventCountText,
     };
 
     return (

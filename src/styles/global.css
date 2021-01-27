@@ -48,6 +48,14 @@ body {
   margin-right: 0.3rem;
 }
 
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 1rem;
+}
+
 .dark-page-header {
   border-top: 1px dashed var(--border);
   background-color: var(--dark-header);

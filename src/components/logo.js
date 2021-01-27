@@ -14,7 +14,7 @@ class Logo extends Component {
   };
 
   render() {
-    const { buildDate, buildTime } = this.props;
+    const { buildDate, buildTime, eventCountText } = this.props;
 
     return (
       <div className="logo mb-2">
@@ -25,11 +25,11 @@ class Logo extends Component {
         <Link to="/" className="logo-link">
           <LogoFlat />
         </Link>
-        <div className="comment-block">
-          <div className="mr-1">*</div>
+        <div className="comment-block mt-sm">
           <div>
-            <div>Roster.one - сводный календарь событий</div>
-            {/*<div>Roster.one (ростер ван) список номер один<br/>сводный календарь событий</div>*/}
+            <div>Сводный календарь событий Roster.one</div>
+            <div>{eventCountText}</div>
+            <div>Обратная связь: telegram</div>
           </div>
         </div>
       </div>

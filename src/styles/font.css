@@ -77,4 +77,5 @@ a:hover {
 
 .comment-block * {
   font-size: var(--font-size-xs) !important;
+  line-height: var(--line-height-lg);
 }

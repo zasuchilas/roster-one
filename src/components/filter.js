@@ -9,6 +9,7 @@ const getGroupTagSlugs = tagGroup => {
 
 class Filter extends Component {
   state = {
+    opened: false,
     tagSlugs: [],
     selected: [],
   };
@@ -67,6 +68,7 @@ class Filter extends Component {
 
   render() {
     const { tagGroups, shown, total } = this.props;
+    const { opened } = this.state;
 
     if (!total) {
       return null;

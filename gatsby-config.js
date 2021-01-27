@@ -36,7 +36,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Roster.One`,
+        name: `Roster.one`,
         short_name: `Roster`,
         start_url: `/`,
         background_color: `#fff`,
