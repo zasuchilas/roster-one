@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Logo from './logo';
 import Navigation from './navigation';
+import Root from './root';
 
 const SCROLL_OFFSET = 512;
 
@@ -63,12 +64,15 @@ class Layout extends Component {
         <div className="layout" ref={this.ref}>
           <header>
             <Logo {...logoProps} />
-            <Navigation {...layoutData} />
+            <Root>
+              <Navigation {...layoutData} />
+            </Root>
           </header>
           <div className="article">{children}</div>
-          {/*<footer className="footer">*/}
-          {/*  <div>{logoDescDetails}</div>*/}
-          {/*</footer>*/}
+          <footer className="footer">
+            {/*<div>{logoDescDetails}</div>*/}
+            roster.one
+          </footer>
         </div>
       </Fragment>
     );
