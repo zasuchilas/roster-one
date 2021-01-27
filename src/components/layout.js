@@ -36,13 +36,13 @@ class Layout extends Component {
       logoText,
       logoDesc,
       logoDescButton,
-      logoDescDetails,
+      // logoDescDetails,
     } = siteMetadata;
     const logoProps = {
       logoText,
       logoDesc,
       logoDescButton,
-      logoDescDetails,
+      // logoDescDetails,
       buildDate,
       buildTime,
       eventCountText,
@@ -66,9 +66,9 @@ class Layout extends Component {
             <Navigation {...layoutData} />
           </header>
           <div className="article">{children}</div>
-          <footer className="footer">
-            <div>{logoDescDetails}</div>
-          </footer>
+          {/*<footer className="footer">*/}
+          {/*  <div>{logoDescDetails}</div>*/}
+          {/*</footer>*/}
         </div>
       </Fragment>
     );

@@ -1,0 +1,19 @@
+.btn.tab-btn {
+  border-bottom: none;
+  font-size: 1.1rem;
+  color: var(--functions);
+}
+
+.tab-delimiter {
+  color: var(--functions);
+  display: inline-block;
+  margin: 0 0.2rem;
+}
+
+.tab-block .btn.tab-btn {
+  margin: 0;
+}
+
+.tab-block {
+  /*margin-bottom: 0.5rem;*/
+}

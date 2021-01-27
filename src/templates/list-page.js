@@ -72,8 +72,8 @@ const switchViewState = switchOptions => {
   return { nextViewState, lsActions };
 };
 
-const EVENT_VIEW_STATE_MARKED = 'marked';
-const EVENT_VIEW_STATE_HIDDEN = 'hidden';
+export const EVENT_VIEW_STATE_MARKED = 'marked';
+export const EVENT_VIEW_STATE_HIDDEN = 'hidden';
 export const EVENT_VIEW_ACTION_MARK = 'mark';
 export const EVENT_VIEW_ACTION_HIDE = 'hide';
 

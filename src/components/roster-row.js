@@ -4,19 +4,21 @@ import Links from './links';
 import {
   EVENT_VIEW_ACTION_HIDE,
   EVENT_VIEW_ACTION_MARK,
+  EVENT_VIEW_STATE_HIDDEN,
+  EVENT_VIEW_STATE_MARKED,
 } from '../templates/list-page';
 
 class RosterRow extends Component {
   state = {
     edit: false,
-  }
+  };
 
   toggleEdit = () => {
     this.setState(prev => {
       const edit = !prev.edit;
       return { edit };
-    })
-  }
+    });
+  };
 
   render() {
     const { node, place, placeExt, msg, custom, onAction } = this.props;
@@ -25,6 +27,10 @@ class RosterRow extends Component {
     const editClass = edit ? 'edit' : '';
     const viewClass = custom && custom.view ? custom.view : '';
     const classes = `roster-row ${viewClass} ${editClass}`;
+    const markBtnCaption =
+      viewClass === EVENT_VIEW_STATE_MARKED ? 'Не выделять' : 'Выделить';
+    const hideBtnCaption =
+      viewClass === EVENT_VIEW_STATE_HIDDEN ? 'Не скрывать' : 'Скрыть';
 
     if (msg) {
       return (
@@ -37,7 +43,9 @@ class RosterRow extends Component {
     const { dateFormated, text, desc, tagsDetails, links, pathKey } = node;
 
     const tagsBlock = (
-      <div className="roster-tags"><span>{tagsDetails.join(' | ')}</span></div>
+      <div className="roster-tags">
+        <span>{tagsDetails.join(' | ')}</span>
+      </div>
     );
 
     return (
@@ -73,16 +81,16 @@ class RosterRow extends Component {
             <button
               className="btn action-btn"
               onClick={() => onAction(EVENT_VIEW_ACTION_MARK, pathKey)}
-              title="Выделить событие"
+              title="Выделить событие / снять выделение"
             >
-              Выделить
+              {markBtnCaption}
             </button>
             <button
               className="btn action-btn"
               onClick={() => onAction(EVENT_VIEW_ACTION_HIDE, pathKey)}
-              title="Скрыть событие"
+              title="Скрыть событие / не скрывать"
             >
-              Скрыть
+              {hideBtnCaption}
             </button>
           </div>
         </div>

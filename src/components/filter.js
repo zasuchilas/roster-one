@@ -66,6 +66,13 @@ class Filter extends Component {
     }, 0);
   };
 
+  onFilterToggle = () => {
+    this.setState(prev => {
+      const opened = !prev.opened;
+      return { opened };
+    });
+  }
+
   render() {
     const { tagGroups, shown, total } = this.props;
     const { opened } = this.state;
@@ -74,8 +81,7 @@ class Filter extends Component {
       return null;
     }
 
-    const info = `(показано ${shown} из ${total})`;
-    const commentText = <span>Фильтр {info}</span>;
+    const info = `Показано ${shown} из ${total}`;
     const tagsBlock = tagGroups.reduce((acc, group) => {
       if (!group.length) {
         return acc;
@@ -102,8 +108,8 @@ class Filter extends Component {
       );
       return acc;
     }, []);
-    const filterBody = (
-      <span className="filter-body">
+    const filterBody = opened ? (
+      <div className="filter-body">
         {tagsBlock}{' '}
         <button className="filter-tag" onClick={this.onClear}>
           Сбросить
@@ -111,17 +117,20 @@ class Filter extends Component {
         <button className="filter-tag" onClick={this.onSelectAll}>
           Выбрать все
         </button>
-      </span>
-    );
+      </div>
+    ) : null;
     return (
       <div className="filter">
-        {filterBody}
-        <div className="comment-block mt-1">
-          <div className="mr-1">***</div>
-          <div>
-            <div>{commentText}</div>
-          </div>
+        <div className="tab-block">
+          <button className="btn tab-btn" onClick={this.onFilterToggle}>
+            Фильтр
+          </button>
+          <div className="tab-delimiter">|</div>
+          <button className="btn tab-btn" onClick={this.onFilterToggle}>
+            {info}
+          </button>
         </div>
+        {filterBody}
       </div>
     );
   }

@@ -9,3 +9,4 @@ import './src/styles/logo.css';
 import './src/styles/filter.css';
 import './src/styles/links.css';
 import './src/styles/navigation.css';
+import './src/styles/tab.css';
