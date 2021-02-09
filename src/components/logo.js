@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import LogoFlat from '../../content/images/logo-flat.svg';
+import LogoFlat from '../../content/images/roster-one.svg';
 
 class Logo extends Component {
   state = {

@@ -20,7 +20,7 @@ class Layout extends Component {
       const fontSize = `${+document.documentElement.clientWidth * 0.046}px`;
       document.documentElement.style.setProperty('--font-size-sm', fontSize);
     }
-  }
+  };
 
   scrollToLeft = () => {
     this.ref.current.scrollLeft -= SCROLL_OFFSET;
@@ -69,10 +69,7 @@ class Layout extends Component {
             </Root>
           </header>
           <div className="article">{children}</div>
-          <footer className="footer">
-            {/*<div>{logoDescDetails}</div>*/}
-            roster.one
-          </footer>
+          <footer className="footer">roster.one</footer>
         </div>
       </Fragment>
     );
