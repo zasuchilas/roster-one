@@ -36,6 +36,7 @@ const mainQuery = `
             filename
           }
           items
+          written
         }
       }
     }

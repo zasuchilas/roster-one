@@ -8,6 +8,8 @@ const {
 } = require('./src/utils-node/layout-data-helpers');
 const { getToday, getMskNow } = require('./src/utils-node/date-helpers');
 
+process.env.TZ = 'UTC';
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `Yaml`) {

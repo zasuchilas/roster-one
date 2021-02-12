@@ -96,6 +96,24 @@ const isExpired = checkingDate => {
   return new Date() > endOfDay(checkingAsDate);
 };
 
+const getWeeklyRange = today => {
+  const startNextWeek = startOfWeek(today, { weekStartsOn: 5 });
+  const endDay = subDays(startNextWeek, 1);
+  const startDateTime = subDays(endDay, 6);
+  const endDateTime = endOfDay(endDay);
+  const startDateStr = formatDate(startDateTime);
+  const endDateStr = formatDate(endDateTime);
+  return { startDateTime, endDateTime, startDateStr, endDateStr };
+};
+
+const isInRange = ({ rangeStartDate, rangeEndDate, checkingDateText }) => {
+  if (!checkingDateText) {
+    return false;
+  }
+  const checkingDate = parseISO(checkingDateText);
+  return rangeStartDate <= checkingDate && checkingDate <= rangeEndDate;
+};
+
 const getWeekRangeData = today => {
   const thisWeekStart = startOfWeek(today, { weekStartsOn: 1 });
   const thisWeekEnd = endOfWeek(today, { weekStartsOn: 1 });
@@ -140,8 +158,6 @@ const getMonthRangeData = today => {
   };
 };
 
-const getWeeklyPeriod = today => {};
-
 module.exports = {
   getToday,
   getMskNow,
@@ -153,6 +169,8 @@ module.exports = {
   isExpired,
   getPrettyWeek,
   getPrettyPeriod,
+  getWeeklyRange,
+  isInRange,
   getWeekRangeData,
   getDateFormated,
   formatDateStr,

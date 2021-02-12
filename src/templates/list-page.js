@@ -195,7 +195,15 @@ class ListPage extends Component {
       pageContext,
       location: { pathname },
     } = this.props;
-    const { title, lead, uniqTags, list, layoutData, seoData } = pageContext;
+    const {
+      title,
+      subtitle,
+      lead,
+      uniqTags,
+      list,
+      layoutData,
+      seoData,
+    } = pageContext;
     const { siteMetadata } = layoutData;
     const seoDataProps = { ...seoData, pathname, siteMetadata };
 
@@ -227,6 +235,7 @@ class ListPage extends Component {
         <SEO {...seoDataProps} />
         <div className="article-header">
           <h1>{title}</h1>
+          <div>{subtitle}</div>
           <span
             className="lead-text"
             dangerouslySetInnerHTML={{ __html: converter.makeHtml(lead) }}
