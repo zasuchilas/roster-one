@@ -6,7 +6,7 @@ const {
   getLayoutData,
   parseNavigationLinks,
 } = require('./src/utils-node/layout-data-helpers');
-const { getToday } = require('./src/utils-node/date-helpers');
+const { getToday, getMskNow } = require('./src/utils-node/date-helpers');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -23,7 +23,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
-  const now = new Date();
+  const now = getMskNow(new Date());
   const today = getToday(now);
 
   const result = await graphql(mainQuery);

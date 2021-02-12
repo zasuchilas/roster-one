@@ -32,4 +32,5 @@ const getSeoData = (
 
 module.exports = {
   getSeoData,
+  getSeoKeywords,
 };

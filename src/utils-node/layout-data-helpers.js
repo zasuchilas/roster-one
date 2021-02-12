@@ -57,9 +57,9 @@ const getEventCountText = (events, today) => {
 
 const parseNavigationLinks = listTemplatePagesData => {
   return listTemplatePagesData.map(pageData => {
-    const { title: type, pagePath: src, list } = pageData;
+    const { title: type, pagePath: src, list, color } = pageData;
     const count = list.length;
-    return { type, src, count };
+    return { type, src, count, color };
   });
 };
 

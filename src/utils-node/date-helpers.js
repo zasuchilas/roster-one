@@ -5,6 +5,7 @@ const ru = require('date-fns/locale/ru');
 const endOfDay = require('date-fns/endOfDay');
 const startOfWeek = require('date-fns/startOfWeek');
 const endOfWeek = require('date-fns/endOfWeek');
+const addHours = require('date-fns/addHours');
 const addDays = require('date-fns/addDays');
 const subDays = require('date-fns/subDays');
 const startOfMonth = require('date-fns/startOfMonth');
@@ -16,6 +17,10 @@ const startOfDay = require('date-fns/startOfDay');
 
 const getToday = now => {
   return startOfDay(now);
+};
+
+const getMskNow = now => {
+  return addHours(now, 3);
 };
 
 const formatDate = date => format(date, 'yyyy-MM-dd');
@@ -135,8 +140,11 @@ const getMonthRangeData = today => {
   };
 };
 
+const getWeeklyPeriod = today => {};
+
 module.exports = {
   getToday,
+  getMskNow,
   formatDate,
   formatBuildDate,
   formatBuildTime,

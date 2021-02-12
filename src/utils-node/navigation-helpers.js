@@ -90,8 +90,6 @@ const getPeriodRegionPath = (periodSlug, regionSlug) =>
 const getPeriodProgramPath = (periodSlug, programSlug) =>
   periodSlug
     ? `/${EVENTS_FOLDER_NAME}/${periodSlug}/${programSlug}/`
-    : programSlug === 'index'
-    ? '/'
     : `/${programSlug}-${EVENTS_FOLDER_NAME}/`;
 
 module.exports = {

@@ -26,3 +26,11 @@
   text-decoration: none;
   border-bottom: 1px solid var(--primary-color);
 }
+
+.links .links-link.brown {
+  color: var(--brown);
+}
+
+.links .links-link.brown:hover {
+  border-bottom: 1px solid var(--brown);
+}

@@ -51,8 +51,9 @@ const getLinkElement = (link, inner) => {
   const keyValue = `${link.type}:${link.src}`;
   const countBlock =
     link.count || link.count === 0 ? <sup>{link.count}</sup> : null;
+  const classNames = link.color ? `links-link ${link.color}` : 'links-link';
   return inner === true ? (
-    <Link to={link.src} key={keyValue} className="links-link">
+    <Link to={link.src} key={keyValue} className={classNames}>
       {link.type}
       {countBlock}
     </Link>
@@ -61,7 +62,7 @@ const getLinkElement = (link, inner) => {
       href={hrefStr}
       target="_blank"
       rel="noreferrer"
-      className="links-link"
+      className={classNames}
       key={keyValue}
     >
       {getLinkText(link.type)}
