@@ -48,24 +48,39 @@ class RosterRow extends Component {
       </div>
     );
 
+    const actionBtnBlock = (
+      <button
+        className="btn action-btn ml-1"
+        onClick={this.toggleEdit}
+        title="Действия (выделить, скрыть, добавить заметку)"
+      >
+        ☰{/*⋮*/}
+      </button>
+    );
+
+    const dateBlock = dateFormated ? (
+      <div className="row-header">
+        <div className="roster-date">{dateFormated}</div>
+        <div>{actionBtnBlock}</div>
+      </div>
+    ) : null;
+
+    const textBlock = dateBlock ? (
+      <div>
+        <span className="roster-text">{text}</span>
+      </div>
+    ) : (
+      <div>
+        <span className="roster-text">{text}</span>
+        {actionBtnBlock}
+      </div>
+    );
+
     return (
       <li className={classes}>
         <div>
-          <div className="row-header">
-            <div className="roster-date">{dateFormated}</div>
-            <div>
-              <button
-                className="btn action-btn ml-1"
-                onClick={this.toggleEdit}
-                title="Действия (выделить, скрыть, добавить заметку)"
-              >
-                ...
-              </button>
-            </div>
-          </div>
-          <div>
-            <span className="roster-text">{text}</span>
-          </div>
+          {dateBlock}
+          {textBlock}
           <div className="roster-desc">
             <span>{desc}</span>
           </div>
