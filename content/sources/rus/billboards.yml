@@ -1,0 +1,15 @@
+-
+  text: timepad.ru
+  slug: timepad-ru
+  desc: 20000 событий в месяц
+  tags: [ 'running', 'billboard' ]
+  links:
+    - { type: www, src: afisha.timepad.ru }
+-
+  text: imepad.ru
+  slug: imepad-ru
+  desc: 20000 событий в месяц
+  tags: [ 'running', 'afisha' ]
+  links:
+    - { type: www, src: afisha.imepad.ru }
+  written: 2021-02-11

@@ -1,3 +1,5 @@
+const { SOURCES_FOLDER_NAME } = require('./const');
+const { EVENTS_FOLDER_NAME } = require('./const');
 const { ARCHIVE_COMMENT, COLLECTED_BY } = require('./const');
 const { getArchiveSeoData } = require('./seo-helpers');
 const { getSeoData } = require('./seo-helpers');
@@ -11,7 +13,7 @@ const {
   getEventPathSlug,
   getEventFields,
 } = require('./context-helpers');
-const { getRegionName, getRegionDesc } = require('./props-helpers');
+const { getRegionName, getRegionDesc, getRegion } = require('./props-helpers');
 const { getListLead, getCollectedDeclination } = require('./simple-helpers');
 const {
   getEventTagSet,
@@ -30,7 +32,10 @@ const getMonthsRegionEvents = (events, month, region) => {
 const getPeriodRegionEvents = (events, region, periodStart, periodEnd) => {
   return events.filter(
     yml =>
-      yml.node.fields.filename === region &&
+      ((yml.node.fields.folder === EVENTS_FOLDER_NAME &&
+        yml.node.fields.filename === region) ||
+        (yml.node.fields.folder === SOURCES_FOLDER_NAME &&
+          yml.node.fields.subFolder === region)) &&
       isActualEvent(periodStart, yml.node.date),
   );
 };
@@ -68,14 +73,17 @@ const getPeriodRegionPageData = (periodItem, regionItem, ymlDataBundle) => {
     regionSlug,
     start,
     end,
-  ).map(({ node }) => getEventContext({ node, places, eventSections }));
-  const title = getRegionName(regionSlug, regions);
-  const desc = getRegionDesc(regionSlug, regions);
+  ).map(({ node }) =>
+    getEventContext({ node, places, eventSections, regions }),
+  );
+  const region = getRegion(regionSlug, regions);
+  const { text: title, desc, color } = region && region.node;
+  console.log('region', region);
   const collected = getCollectedDeclination(list.length);
   const lead = getListLead(list.length, `${desc}${collected}`);
   const uniqTags = [getEventTagSet(list, eventSections)];
   const seoData = getSeoData(leadAttach, title, desc, uniqTags);
-  return { list, title, subtitle, lead, uniqTags, pagePath, seoData };
+  return { list, title, subtitle, lead, uniqTags, pagePath, seoData, color };
 };
 
 const getRegionList = ymlDataBundle => {

@@ -95,6 +95,7 @@ const getPeriodProgramPageData = (periodItem, programItem, ymlDataBundle) => {
     items: programItems,
     text: title,
     desc,
+    color,
   } = programItem.node;
   const pagePath = getPeriodProgramPath(periodSlug, programSlug);
   const list = getPeriodProgramEvents(
@@ -102,7 +103,9 @@ const getPeriodProgramPageData = (periodItem, programItem, ymlDataBundle) => {
     programItems,
     start,
     end,
-  ).map(({ node }) => getEventContext({ node, places, eventSections }));
+  ).map(({ node }) =>
+    getEventContext({ node, places, eventSections, regions }),
+  );
   const collected = getCollectedDeclination(list.length);
   const lead = getListLead(list.length, `${desc}${collected}`);
   const uniqTags = [
@@ -110,7 +113,7 @@ const getPeriodProgramPageData = (periodItem, programItem, ymlDataBundle) => {
     getEventRegionSet(list, regions),
   ];
   const seoData = getSeoData(leadAttach, title, desc, uniqTags);
-  return { list, title, subtitle, lead, uniqTags, pagePath, seoData };
+  return { list, title, subtitle, lead, uniqTags, pagePath, seoData, color };
 };
 
 module.exports = {

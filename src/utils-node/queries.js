@@ -37,6 +37,7 @@ const mainQuery = `
           }
           items
           written
+          color
         }
       }
     }

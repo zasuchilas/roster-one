@@ -30,9 +30,11 @@ const formatBuildDate = now =>
 
 const formatBuildTime = now => format(now, 'HH:mm мск');
 
-const formatDateStr = dateAsString => formatDate(parseISO(dateAsString));
+const formatDateStr = dateAsString =>
+  dateAsString && formatDate(parseISO(dateAsString));
 
 const getDateFormated = dateAsString =>
+  dateAsString &&
   format(parseISO(dateAsString), 'EEEEEE dd.MM.yyyy', {
     locale: ru,
   });
@@ -76,6 +78,9 @@ const getPrettyPeriod = (periodStart, periodEnd, periodName) => {
 };
 
 const isActualEvent = (today, dateStr) => {
+  if (!dateStr) {
+    return true;
+  }
   const eventDate = parseISO(dateStr);
   return today <= eventDate;
 };

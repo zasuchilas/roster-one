@@ -1,0 +1,8 @@
+-
+  text: Источники
+  desc: ссылки на источники информации о событиях
+  slug: sources
+  items:
+    - edition
+    - billboard
+    - catalog

@@ -1,15 +1,23 @@
 const {
   COMMON_FOLDER,
   EVENTS_FOLDER_NAME,
+  SOURCES_FOLDER_NAME,
   PLACES_FOLDER_NAME,
 } = require('./const');
 const { getIdeaProps } = require('./props-helpers');
 const { getYamlBlock, getYamlSubFolder } = require('./yaml-helpers');
 
+const getEventsAndSources = (events, sources) => {
+  return [...events, ...sources];
+};
+
 const getYmlDataBundle = mainQueryResult => {
   const siteMetadata = mainQueryResult.data['site'].siteMetadata;
   const yamlData = mainQueryResult.data['allYaml'].edges;
   const events = getYamlBlock(yamlData, EVENTS_FOLDER_NAME);
+  const sources = getYamlBlock(yamlData, SOURCES_FOLDER_NAME)
+    .slice()
+    .sort((a, b) => (a.text > b.text ? -1 : 1));
   const places = getYamlBlock(yamlData, PLACES_FOLDER_NAME);
   const eventSections = getYamlSubFolder(
     yamlData,
@@ -20,7 +28,7 @@ const getYmlDataBundle = mainQueryResult => {
   const programs = getYamlSubFolder(yamlData, COMMON_FOLDER, 'event-programs');
   return {
     siteMetadata,
-    events,
+    events: getEventsAndSources(events, sources),
     places,
     eventSections,
     regions,

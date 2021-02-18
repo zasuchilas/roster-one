@@ -42,8 +42,8 @@
   font-size: 0.85rem;
 }
 
-.roster-row .roster-tags {
-  font-size: 0.85rem;
+.roster-row .roster-tags span {
+  font-size: 0.8rem;
   font-style: italic;
   text-transform: lowercase;
   /*margin-right: 0.3rem;*/

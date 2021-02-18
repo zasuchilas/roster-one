@@ -1,0 +1,11 @@
+-
+  text: Издание
+  desc: газеты и журналы
+  slug: edition
+-
+  text: Афиша
+  desc: афиша событий
+  slug: billboard
+-
+  text: Каталог ссылок
+  slug: catalog

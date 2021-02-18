@@ -33,7 +33,9 @@ const getWeeklyPageData = (today, ymlDataBundle) => {
     events,
     startDateTime,
     endDateTime,
-  ).map(({ node }) => getEventContext({ node, places, eventSections }));
+  ).map(({ node }) =>
+    getEventContext({ node, places, eventSections, regions }),
+  );
 
   const weeklyStart = getDateFormated(startDateStr);
   const weeklyEnd = getDateFormated(endDateStr);

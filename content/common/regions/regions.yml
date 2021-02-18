@@ -2,6 +2,7 @@
   text: Москва
   slug: msk
   desc: 'на территории Москвы и Московской области'
+  # color: red
   subregions:
     - text: Балашиха
       slug: balashikha

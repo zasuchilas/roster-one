@@ -97,3 +97,12 @@
   slug: services
   items:
     - services
+-
+  text: Источники
+  desc: ссылки на источники информации о событиях
+  slug: sources
+  color: blue
+  items:
+    - edition
+    - billboard
+    - catalog

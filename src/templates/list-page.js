@@ -127,6 +127,9 @@ class ListPage extends Component {
   };
 
   componentDidMount() {
+    console.log(this.props);
+
+    // TODO: setTimeout
     const eventKeys = Object.keys(localStorage).filter(key =>
       key.startsWith('/events/'),
     );
